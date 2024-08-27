@@ -1,4 +1,5 @@
-# Configuring A VPC Flowa
+# Configuring A VPC Flow
+
 resource "aws_flow_log" "vpc1flow" {
     vpc_id = aws_vpc.vpc1.id
     traffic_type = "ALL"
